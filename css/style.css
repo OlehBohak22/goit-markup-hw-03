@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   background-color: #fff;
 }
@@ -28,7 +28,6 @@ ul {
 }
 
 .nav {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -38,7 +37,6 @@ ul {
 }
 
 .address {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -51,13 +49,16 @@ ul {
 .nav:hover {
   color: #404bbf;
 }
+.address:focus,
+.nav:focus {
+  color: #404bbf;
+}
 
 .first-section {
   background-color: #2e2f42;
 }
 
 .head {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -71,7 +72,7 @@ ul {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -84,7 +85,6 @@ ul {
   background-color: #404bbf;
 }
 .names {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -93,8 +93,6 @@ ul {
   color: #2e2f42;
 }
 .ph {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
@@ -102,7 +100,6 @@ ul {
   color: #434455;
 }
 .h2 {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -114,8 +111,6 @@ ul {
 }
 
 .proffession {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
@@ -125,8 +120,6 @@ ul {
 }
 
 footer {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
