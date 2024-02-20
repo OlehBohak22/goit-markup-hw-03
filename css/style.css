@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   background-color: #fff;
+  color: #434455;
 }
 
 a {
@@ -16,20 +17,18 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1, 17;
-  letter-spacing: 0.03em;
+  line-height: 1.17;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .iris {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -38,10 +37,10 @@ ul {
 .address {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
 .address:hover,
@@ -60,11 +59,10 @@ ul {
 .head {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
-  line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  line-height: 1.07;
 }
 
 .button {
@@ -83,6 +81,9 @@ ul {
 .button:hover {
   background-color: #404bbf;
 }
+.button:focus {
+  background-color: #404bbf;
+}
 .names {
   font-weight: 500;
   font-size: 20px;
@@ -91,19 +92,35 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.ph {
+.paragraph {
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header2 {
+.section-third {
+  background-color: #f4f4fd;
+}
+.header-second {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+.background {
+  background-color: #ffffff;
+}
+.header-last {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
@@ -127,7 +144,7 @@ footer {
 }
 
 .studio {
-  color: #f4f4fd;
+  color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
