@@ -48,16 +48,17 @@ ul {
 .nav:hover {
   color: #404bbf;
 }
+
 .address:focus,
 .nav:focus {
   color: #404bbf;
 }
 
-.first-section {
+.main-section {
   background-color: #2e2f42;
 }
 
-.head {
+.main-text {
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
@@ -81,9 +82,11 @@ ul {
 .button:hover {
   background-color: #404bbf;
 }
+
 .button:focus {
   background-color: #404bbf;
 }
+
 .names {
   font-weight: 500;
   font-size: 20px;
@@ -99,9 +102,11 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .section-third {
   background-color: #f4f4fd;
 }
+
 .header-second {
   font-weight: 700;
   font-size: 36px;
@@ -111,9 +116,21 @@ ul {
   text-align: center;
   color: #2e2f42;
 }
+
+.portfolio-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .background {
   background-color: #ffffff;
 }
+
 .header-last {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -153,19 +170,11 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .footer-paragraph {
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-.portfolio-header {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
