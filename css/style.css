@@ -158,8 +158,18 @@ ul {
 }
 
 /*solution list*/
-.invisible-header {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .names {
@@ -192,7 +202,7 @@ ul {
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
-  width: calc((100% - 72) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 /*Team*/
@@ -321,13 +331,26 @@ ul {
   text-transform: uppercase;
 }
 
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-text {
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
+
+  max-width: 264px;
 }
 
 .footer-container {
