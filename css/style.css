@@ -39,7 +39,6 @@ ul {
 
 .header-container {
   display: flex;
-  padding: 24px 0;
 }
 
 .nav-container {
@@ -51,6 +50,7 @@ ul {
 .nav-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -256,7 +256,7 @@ Title*/
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   border-radius: 0 0 4px 4px;
-  flex-basis: calc((100% - 3 * 24) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .persons-container-list {
@@ -299,7 +299,7 @@ Title*/
 .card-container-item {
   display: flex;
   flex-direction: column;
-  flex-basis: calc((100% - 4 * 24) / 6);
+  width: calc((100% - 48px) / 3);
 }
 
 /*Footer*/
