@@ -2,6 +2,7 @@
 body {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .container {
@@ -17,6 +18,7 @@ body {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 img {
@@ -51,8 +53,17 @@ ul {
 .nav-list {
   display: flex;
   gap: 40px;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   padding: 24px 0;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -72,15 +83,6 @@ ul {
   color: #2e2f42;
 }
 
-.nav-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  padding: 24px 0;
-}
-
 .address-item {
   font-weight: 400;
   font-size: 16px;
@@ -88,12 +90,12 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+  padding: 24px 0;
 }
 
 .address-container {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .address:hover,
